@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+body{
+    width:100vw;
+    height:100vh;
+    background-color: rgb(51, 142, 221);
+    justify-content: center;
+ 
+    display: flex;
+    align-items: center;
+    
+
+}
+.container{
+    width: 900px;
+    height: 400px;
+    background-color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+   
+}
+img{
+    display: block;
+    width: 100%;
+}
+.left_image{
+    width: 450px;
+    overflow: hidden;
+    
+
+}
+.image_slider{
+    display: flex;
+    transition: all 0.5s ease;
+    
+}
+
+.img-select{
+    display: flex;
+    margin-top: 7px;
+}
+
+.img{
+    border: 2px white;
+}
+.active{
+    border: 2px solid yellow;
+}
+
+.right_image{
+    padding: 10px;
+    margin-top: 0px;
+}
+.right_image h2{
+    font-weight: 400;
+}
+.star ion-icon{
+    color: black;
+}
+.right_image .star ion-icon:nth-child(1),
+.star ion-icon:nth-child(2),
+.star ion-icon:nth-child(3){
+  color: gold;
+}
+.right_image span{
+    font-weight: 400;
+    margin-left: 15px;
+}
+.right_image h2{
+    margin-top: 15px;
+    font-weight: 700;
+}
+.right_image h2 span{
+    text-decoration: line-through;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 15px;
+}
+.right_image p{
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.right_image .form{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.form-group label,
+.form-group select
+{
+    display: block;
+}
+
+.input-group{
+    display: flex;
+}
+.form-group select{
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.btn-cart{
+    width: 140px;
+    height: 30px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 3px;
+}
+.input-group input{
+    width: 85px;
+    border: 1px solid #ccc;
+    padding-left: 30px;
+    outline: none;
+}
+.input-group button{
+    width: 30px;
+    height: auto;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    margin: 0px;
+}
+
+
+
+
+
+
